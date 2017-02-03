@@ -1,0 +1,48 @@
+body{
+	background-color: #6d8293;
+}
+.ul{
+	list-style: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.buttons li {
+	background: url(sprite.gif) no-repeat;
+	display: inline-block;
+	width: 122px;
+	height: 30px;
+	cursor: pointer;
+}
+.buttons .button1:hover{
+	
+	background-position: 0 -32px;
+}
+.buttons .button1:active{
+	
+	background-position: 0 -64px;
+}
+.buttons .button2{
+	
+	background-position: -130px 0;
+}
+.buttons .button2:hover{
+	
+	background-position: -130px -32;
+}
+.buttons .button2:active{
+	
+	background-position: -130px -64;
+}
+.buttons .button3{
+	
+	background-position: 0 -102;
+}
+.buttons .button3:hover{
+	
+	background-position: 0 -134;
+}
+.buttons .button3:active{
+	
+	background-position: 0 -166;
+}

@@ -1,0 +1,77 @@
+body{
+	background: url(light_honeycomb.png);
+	font: 1em 'PT Sans',Arial, sans-serif;
+}
+
+*{
+	transition: all .5s;
+}
+
+.raw{
+	margin-bottom: 20px;
+}
+
+
+.cont{
+	width: 940px;
+	margin: 10px auto;
+}
+
+.header{
+	width: 940px;
+	height: 65px;
+	background: url(http://z30.d.sdska.ru/2-z30-e5882bea-7e63-426a-9222-21fca5b9961e.png) no-repeat;
+}
+
+.spisok{
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: 204px;
+	width: 120px;
+
+}
+
+.spisok ul{
+	margin: 0;
+	padding: 0;
+	box-shadow: 0 5px 5px #555;
+	list-style: none;
+}
+
+.spisok ul li a{
+	height: 40px;
+	width: 120px;
+	display: block;
+	color: #ddd;
+	text-decoration: none;
+	height: 40px;
+	margin-bottom: 1px;
+	background: #888;
+	text-align: center;
+	line-height: 35px;
+}
+
+.spisok ul li a:hover{
+	background: #aaa;
+}
+
+.content{
+	width: 800px;
+	/*height: 20px;*/
+	margin-left: 140px;
+	text-align:justify; 
+}
+
+.clear{
+	clear: both;
+}
+
+.footer{
+	margin-top: 20px;
+	height: 50px;
+	/*clear: both;*/
+	border-top: 2px dashed #777;
+	padding: 20px;
+
+}

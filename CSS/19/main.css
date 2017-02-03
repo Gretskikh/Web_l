@@ -1,0 +1,33 @@
+body{
+	background: url(hoffman.png);
+	font: 2em  'PT Sans', Arial,sans-serif;
+}
+
+.square{
+	width: 260px;
+	height: 260px;
+	background: #333;
+	background: radial-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6));
+	border: 2px solid #fff;
+	border-radius: 140px 120px;
+	margin: 100px;
+	box-shadow: 0 0 4px rgba(0,0,0,.4);
+
+	animation-name: spin;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.square:hover{
+	animation-play-state: paused;
+}
+
+@keyframes spin {
+	from{
+	transform: rotate(0deg);
+	}
+	to{
+	transform: rotate(360deg);
+	}
+}

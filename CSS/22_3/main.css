@@ -1,0 +1,31 @@
+body{
+	background: url(swirl_pattern.png);
+	font: 2em 'PT Sans', Arial,sans-serif;
+	color: #222;
+	box-sizing: border-box;
+}
+
+.container{
+	width:400px;
+	height: 150px;
+	border: 3px solid rgba(0,0,0,1);
+	border-radius: 10px;
+	margin: 30px;
+	background: linear-gradient(top, #61CCB4 0%, #5CA494 100%);
+	background: linear-gradient(to bottom, #61CCB4 0%, #5CA494 100%);
+	background: #09D8C3;
+	position: relative;
+}
+
+.container_in{
+	width: 380px;
+	height: 130px;
+	
+	border: 1px solid rgba(0,0,0,1);
+	border-radius: 7px;
+	background: linear-gradient(to top,#EDECDE 50px,#FFBA00);
+	position: absolute;
+	left:10px;
+	top: 10px;
+
+}

@@ -1,0 +1,27 @@
+body{
+	background: #ddd;
+	font :1em 'PT Sans', Arial, Tahoma;
+}
+
+#wrapper{
+	height: 200px;
+	perspective: 250px;
+	width: 200px;
+}
+
+#container{
+	background: rgba(0,0,0,.3);
+	border-radius: 8px;
+	border: 3px solid #fff;
+	color: #fff;
+	font-size: 1.5em;
+	height: 150px;
+	line-height: 150px;
+	margin: 80px;
+	text-align: center;
+	width: 250px;
+	
+
+	transform: rotateX(40deg); 
+	
+}	

@@ -1,0 +1,76 @@
+body{
+	background:url('ignasi_pattern_s.png');
+}
+
+.Button1{
+		display: inline-block;
+		height: 80px;
+		width: 80px;
+		background: #ffffff url('icon/book.png') center no-repeat;
+		margin: 50px 100px;
+		cursor: pointer;
+		border-radius: 50%;
+		border: 3px solid #999;
+		transition: all 1s ease-in-out;
+}
+
+.Button1:hover{
+	background: #f00 url('icon/book_hov.png') center no-repeat;
+	border: 3px solid #f00;
+	
+}
+
+
+.Button2{
+		display: inline-block;
+		height: 80px;
+		width: 80px;
+		background: #ffffff url('icon/layers.png') center no-repeat;
+		margin: 50px 100px;
+		cursor: pointer;
+		border-radius: 50%;
+		border: 3px solid #999;
+		transition: all 1s ease-in-out;
+}
+
+.Button2:hover{
+	background: #f00 url('icon/layers_hov.png') center no-repeat;
+	border: 3px solid #f00;
+	
+}
+
+.Button3{
+		display: inline-block;
+		height: 80px;
+		width: 80px;
+		background: #ffffff url('icon/mobile.png') center no-repeat;
+		margin: 50px 100px;
+		cursor: pointer;
+		border-radius: 50%;
+		border: 3px solid #999;
+		transition: all 1s ease-in-out;
+}
+
+.Button3:hover{
+	background: #f00 url('icon/mobile_hov.png') center no-repeat;
+	border: 3px solid #f00;
+	
+}
+
+.Button4{
+		display: inline-block;
+		height: 80px;
+		width: 80px;
+		background: #ffffff url('icon/settings.png') center no-repeat;
+		margin: 50px 100px;
+		cursor: pointer;
+		border-radius: 50%;
+		border: 3px solid #999;
+		transition: all 1s ease-in-out;
+}
+
+.Button4:hover{
+	background: #f00 url('icon/settings_hov.png') center no-repeat;
+	border: 3px solid #f00;
+	
+}

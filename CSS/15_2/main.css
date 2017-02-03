@@ -1,0 +1,117 @@
+body{
+	background: url(strange_bullseyes.png);
+	font: 1.3em Tahoma;
+	text-transform: uppercase;
+	margin: 0;
+	list-style: 0;
+}
+
+.d1{
+	width: 170px;
+	height: 0px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.d2{
+	width: 220px;
+	height: 0px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	display: inline-block;
+}
+
+.but1{
+	margin: 1px;
+	cursor: pointer;
+	padding: 0;
+}
+
+.but2{
+	margin: 1px;
+	cursor: pointer;
+	padding: 0;
+}
+
+.nav1 li{
+	width: 170px;
+	height: 48px;
+	overflow: hidden;
+	opacity: 0.7;
+	position: absolute;
+	transition: all .5s ease-in-out;
+}
+
+.nav1 li:hover{
+	width: 170px;
+	height: 200px;
+	opacity: 1;
+}
+
+.nav2{
+	
+}
+
+.nav2 li{
+	width: 220px;
+	height: 48px;
+	overflow: hidden;
+	opacity: 0.7;
+	position: absolute;
+	transition: all .5s ease-in-out;
+	
+}
+
+.nav2 li:hover{
+	width: 220px;
+	height: 200px;
+	opacity: 1;
+}
+li a{
+	width: 220px;
+	height: 40px;
+	display: block;
+	padding-top: 10px;
+	margin: 1px;
+	background:#b8cb34;
+	text-indent: 10px;
+	
+}
+.but1 a:first-child{
+	text-indent: 40px;
+	
+}
+
+.but1 a:first-child::before{
+	background: url(sphere.png) center no-repeat;
+	content: '';
+	position: absolute;
+	display: block;
+	height: 30px;
+	width: 30px;
+	top: 8px;
+	left: 5px;
+}
+
+.but2 a:first-child{
+	text-indent: 40px;
+	
+}
+
+.but2 a:first-child::before{
+	background: url(pyramid.png) center no-repeat;
+	content: '';
+	position: absolute;
+	display: block;
+	height: 30px;
+	width: 30px;
+	top: 8px;
+	left: 5px;
+}
